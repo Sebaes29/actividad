@@ -1,0 +1,54 @@
+#bucar{
+  position: relative;
+    margin-left: 650px;
+}
+#cac{
+  position: relative;
+    margin-left: 30px;
+}
+#buscar{
+  position: relative;
+    margin-left: 5px;
+}
+#tarjetas{
+  display: flex;
+  justify-content: center;
+}
+.card-img-top{
+  height: 230px;
+}
+.hh{
+  color: grey;
+}
+#email{
+  position: relative;
+    margin-left: 30px;
+  width: 95%;
+}
+#p1{
+  position: relative;
+    margin-left: 30px;
+}
+#p2{
+  position: relative;
+    margin-left: 30px;
+  font-size: 15px;
+  color: grey;
+}
+#p3{
+  position: relative;
+    margin-left: 30px;
+}
+#pass{
+  position: relative;
+    margin-left: 30px;
+  width: 95%;
+}
+#verif{
+  position: relative;
+    margin-left: 30px;
+}
+#enviar{
+  position: relative;
+    margin-left: 30px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACTIVIDAD</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" id="cac">Codo a Codo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Desactivado</a>
+        </li>
+        <li>
+          <form class="form-inline my-2 my-lg-0" id="bucar">
+          <input class="form-control mr-lg-2" type="search" placeholder="Buscar" aria-label="Search" id="busca">
+          </form>
+        </li>
+        <li>
+          <form class="btn btn-outline-success my-2 my-sm-0" type="submit" id="buscar">Buscar</button>
+          </form>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+  <div class="container-fluid" id="tarjetas">
+    <div class="row">
+      <div class="col-lg">
+        <div class="card" style="width: 26rem;">
+          <img class="card-img-top" src="IMAGENES/encabezado1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Titulo 1</h5>
+            <p class="card-text">Contenido de Card</p>
+            <h6 class="hh">Ultima actualizacion 1</h6>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="card" style="width: 26rem;">
+          <img class="card-img-top" src="IMAGENES/css3index.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Titulo 2</h5>
+            <p class="card-text">Contenido de Card</p>
+            <h6 class="hh">Ultima actualizacion 1</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="card" style="width: 26rem;">
+          <img class="card-img-top" src="IMAGENES/bootstrap-social.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Titulo 3</h5>
+            <p class="card-text">Contenido de Card</p>
+            <h6 class="hh">Ultima actualizacion 1</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p id="p1">Email</p>
+  <input type="text" name="email" id="email">
+  <p id="p2">Nunca comparta su email.</p>
+  <br>
+  <p id="p3">Contraseña</p>
+  <input type="password" id="pass">
+  <br>
+  <input type="checkbox" name="verif" id="verif">Verificar
+  <br>
+  <br>
+  <button type="button" class="btn btn-primary" id="enviar">Enviar</button>
+</body>
+</html>
